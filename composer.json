@@ -1,0 +1,26 @@
+{
+  "name": "gertvdb/exception",
+  "description": "Module for handling user visible exceptions",
+  "type": "drupal-module",
+  "license": "GPL-2.0+",
+  "minimum-stability": "alpha",
+  "repositories": {
+    "drupal": {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    }
+  },
+  "require": {
+    "drupal/onlyone": "^1.10",
+    "gertvdb/settings": "^1.0"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  },
+  "extra": {
+    "installer-paths": {
+      "vendor/drupal/{$name}": ["drupal/core"],
+      "vendor/drupal/hook_event_dispatcher": ["drupal/hook_event_dispatcher"]
+    }
+  }
+}

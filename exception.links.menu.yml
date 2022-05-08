@@ -1,0 +1,8 @@
+exception.settings:
+  title: 'Exceptions'
+  route_name: exception.settings
+  description: 'a collection of exception settings for the website'
+  parent: settings.settings
+  weight: 100
+
+

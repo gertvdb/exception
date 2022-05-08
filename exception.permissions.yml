@@ -1,0 +1,5 @@
+administer exception settings:
+  title: 'Administer exception settings'
+  description: 'Administer the exception settings page'
+  restrict access: true
+

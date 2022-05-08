@@ -1,0 +1,9 @@
+exception.settings:
+  path: '/admin/settings/exceptions'
+  defaults:
+    _form: '\Drupal\exception\Form\ExceptionsSettingsForm'
+    _title: 'Exceptions'
+  requirements:
+    _permission: 'administer exception settings'
+  options:
+    _admin_route: TRUE

@@ -1,0 +1,7 @@
+services:
+  exception.error_pages:
+    class: Drupal\exception\EventSubscriber\ExceptionHtmlSubscriber
+    tags:
+      - { name: event_subscriber }
+    arguments: [ '@config.factory', '@http_kernel', '@logger.channel.php', '@redirect.destination', '@router.no_access_checks', '@access_manager', '@onlyone', '@language_manager']
+

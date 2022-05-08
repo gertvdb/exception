@@ -1,0 +1,9 @@
+name: 40x (Exceptions)
+type: module
+description: Provide all related functionalities with status pages (404, 403)
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: Content
+dependencies:
+  - onlyone:onlyone
+  - settings:settings
