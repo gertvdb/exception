@@ -22,5 +22,10 @@
       "vendor/drupal/{$name}": ["drupal/core"],
       "vendor/drupal/hook_event_dispatcher": ["drupal/hook_event_dispatcher"]
     }
+  },
+  "autoload": {
+    "psr-4": {
+      "Drupal\\exception\\": "src/"
+    }
   }
 }
