@@ -13,20 +13,21 @@
   "require": {
     "php": ">=8.1",
     "drupal/onlyone": "^1.10",
-    "gertvdb/settings": "^1.0"
+    "gertvdb/settings": "^2.0.0"
   },
   "require-dev": {
+    "drupal/coder": "^8.3",
+    "drupal/core-recommended": "^9.0",
     "roave/security-advisories": "dev-latest"
-  },
-  "extra": {
-    "installer-paths": {
-      "vendor/drupal/{$name}": ["drupal/core"],
-      "vendor/drupal/hook_event_dispatcher": ["drupal/hook_event_dispatcher"]
-    }
   },
   "autoload": {
     "psr-4": {
       "Drupal\\exception\\": "src/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
     }
   }
 }
